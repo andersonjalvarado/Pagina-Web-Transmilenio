@@ -1,0 +1,111 @@
+/*Universal*/
+a{
+    color:rgb(77, 196, 243);
+}
+
+/* Para index.html, LOG IN */
+.body-background{
+    background-image: url('img/login_img.jpg');
+    background-size: cover;
+    /* background-color: rgb(32, 32, 32); */
+}
+
+.titulo{
+    color: white;
+    background-color: rgb(240, 73, 73);
+    text-align: center;
+}
+
+.fondo{
+    width: 500px;
+    padding: 40px;
+    margin: 20px auto;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.fondo h2{
+    font: bold 2em Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+}
+
+.txtUsername, .txtPassword{
+    text-align: center;
+}
+
+.login-button{
+    background-color: white;
+    margin-top: 20px;
+}
+
+/* .register-button{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    margin: 10px;
+    
+} */
+
+input{
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* .guest-button{
+    bottom: 3em;
+    right: 0;
+    position: absolute;
+    margin: 10px;
+
+} */
+
+/* Botones*/
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkred;
+    color: whitesmoke;
+}
+
+.div_inline{
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.link_login{
+    margin: 10px;
+}
+.link_login:link{
+    color: salmon;
+}
+.link_login:hover{
+    color: salmon;
+}
+
+/*Register*/
+#form_register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+#form_register label{
+    padding: 10px;
+}
+.eleccion_rol{
+    list-style-type: none;
+}

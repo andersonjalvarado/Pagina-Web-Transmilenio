@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Registro</title>
+</head>
+<body class="body-background">
+    <h1 class="titulo">Ponti-Transmilenio</h1>
+    <div class="fondo">
+        <h2><span>Registro</span></h2>
+        <form id="form_register">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+                
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+                
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required>
+        
+            <label for="rol">Rol:</label>
+            <ul class="eleccion_rol">
+                <li><input type="radio" id="radio_administrador" name="radio_administrador" required/>Administrador de Rutas</li>
+                <li><input type="radio" id="radio_coordinador" name="radio_coordinador" required/>Coordinador</li>
+            </ul>    
+            <input type="submit" value="Registrarse">
+
+            <a href="index.html" class="link_login">Ir Atrás</a>
+        </form>
+    </div>
+    
+</body>
+</html>
