@@ -1,99 +1,19 @@
-/*Universal*/
-a{
-    color:rgb(77, 196, 243);
+body{
+    font-family: 'Nato Sans', sans-serif;
+    margin: 0em;
 }
-
-/* Para index.html, LOG IN */
-.index-background{
-    background-image: url('fondo2.jpeg');
-    background-size: cover;
-    /* background-color: rgb(32, 32, 32); */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
 }
-
-#top_index{
-    background-color: rgb(240, 73, 73);
-}
-
-.titulo_index{
+.cover{
+    height: 400px;
+    background-image: url("assets/dino_transmi.jpg");
     color: white;
-    text-align: center;
+    background-size: contain;
+    background-position: center;
+    background-color:rgba(0,0,0,0.5);
+    background-blend-mode: darken;
 }
+.nav{
 
-.div_inline{
-    padding: 10px;
-    text-align: right;
-    margin-top: 10px;
-}
-
-.fondo{
-    width: 500px;
-    padding: 40px;
-    margin: 20px auto;
-    position: relative;
-    background-color: rgb(240, 73, 73, 0.5);
-    border-radius: 10px;
-}
-
-.fondo h2{
-    font: bold 2em Georgia, Times, "Times New Roman", serif;
-    text-align: center;
-    border-bottom-width: 2px;
-    border-bottom-style: dashed;
-}
-
-.txtUsername, .txtPassword{
-    text-align: center;
-}
-
-.login-button{
-    background-color: white;
-    margin-top: 20px;
-}
-
-input{
-    border-radius: 25px;
-    text-align: center;
-}
-
-
-/* Botones*/
-input[type="submit"] {
-    margin-top: 20px;
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: darkred;
-    color: whitesmoke;
-}
-
-.link_login{
-    margin: 10px;
-}
-.link_login:link{
-    color: salmon;
-}
-.link_login:hover{
-    color: salmon;
-}
-
-/*Register*/
-#form_register {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    padding: 20px;
-}
-#form_register label{
-    padding: 10px;
-}
-.eleccion_rol{
-    list-style-type: none;
 }
