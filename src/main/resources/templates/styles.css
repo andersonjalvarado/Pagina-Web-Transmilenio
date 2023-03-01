@@ -10,10 +10,19 @@ a{
     /* background-color: rgb(32, 32, 32); */
 }
 
-.titulo{
-    color: white;
+#top_index{
     background-color: rgb(240, 73, 73);
+}
+
+.titulo_index{
+    color: white;
     text-align: center;
+}
+
+.div_inline{
+    padding: 10px;
+    text-align: right;
+    margin-top: 10px;
 }
 
 .fondo{
@@ -64,11 +73,6 @@ input[type="submit"]:hover {
     color: whitesmoke;
 }
 
-.div_inline{
-    padding: 10px;
-    text-align: center;
-    margin-top: 10px;
-}
 .link_login{
     margin: 10px;
 }
