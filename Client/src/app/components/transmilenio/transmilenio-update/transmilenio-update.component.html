@@ -1,0 +1,33 @@
+<html>
+<body>
+    <section class="page-section about-heading">
+        <div class="container">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/bus2.png" alt="..." />
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">editar</span>
+                                <span class="section-heading-lower">Bus</span>
+                            </h2>
+                            <form [formGroup]="transmilenioForm" (ngSubmit)="actualizarTransmilenio()">
+                                <div>
+                                    <label for="placa">Placa:</label>
+                                    <input type="text" class="form-control" id="placa" [(ngModel)]="transmilenio.placa" formControlName="placa">
+                                </div>
+                                <div>
+                                    <label for="modelo">Modelo:</label>
+                                    <input type="modelo" class="form-control" id="modelo" [(ngModel)]="transmilenio.modelo" formControlName="modelo">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Actualizar</button>
+                            </form>
+                            <a class="btn btn-secundary" [routerLink]="['/transmilenio/list']">Atrás</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+<body>
+    <section class="page-section about-heading">
+        <div class="container">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/bus4.png" alt="..." />
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">editar</span>
+                                <span class="section-heading-lower">Ruta</span>
+                            </h2>
+                            <form [formGroup]="rutaForm" (ngSubmit)="actualizarRuta()">
+                                <div>
+                                    <label for="codigo">Código:</label>
+                                    <input type="text" class="form-control" id="codigo" [(ngModel)]="ruta.codigo" formControlName="codigo">
+                                </div>
+                                <div>
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" class="form-control" id="nombre" [(ngModel)]="ruta.nombre" formControlName="nombre">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Actualizar</button>
+                            </form>
+                            <a class="btn btn-secundary" [routerLink]="['/ruta/list']">Atrás</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
